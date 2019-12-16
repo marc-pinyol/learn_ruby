@@ -28,12 +28,6 @@ def translate_word(param)
 
     # starts with 1 consonants
     else
-        # aux =param[1..-1]
-        # return aux
-        # # if (aux.start_with?("qu"))
-        # #     return  "kk"#param[3..-1]+param[0..2]+append
-        # # else
-            return param[1..-1]+param[0]+append
-        # end
+        return param[1..-1]+param[0]+append
     end
 end
